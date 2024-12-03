@@ -27,7 +27,7 @@
 
 .profile-container{
     margin-top: 200px;
-    padding: 0% 45px;
+    padding: 0 45px;
     width: 100vw;
 }
 
@@ -48,4 +48,14 @@
 .profile-image{
     height: 150px;
     width: 150px;
+}
+
+.profile-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: end;
+    box-sizing: border-box;
+    width: 100%;
+    padding: 25px;
 }
