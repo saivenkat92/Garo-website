@@ -16,6 +16,10 @@
     width: 100vw;
 }
 
+.home-section {
+    height: 380px;
+}
+
 .profile-image-container{
     display: flex;
     box-sizing: border-box;
@@ -29,6 +33,7 @@
     margin-top: 200px;
     padding: 0 45px;
     width: 100vw;
+    height: 20vh;
 }
 
 
@@ -60,4 +65,34 @@
     box-sizing: border-box;
     width: 100%;
     padding: 25px;
+}
+
+.nav-bar {
+    height: 100%;
+    margin-top: 100px;
+}
+
+.nav-bar li{
+    list-style-type:none;
+    padding: 15px;
+    font-weight: 700;
+
+}
+
+.profile-card{
+    height: 100%;
+    width: 100%;
+}
+
+.profile-card-title {
+    padding-top: 110px;
+    padding-left: 10px;
+}
+
+.nav-bar ul{
+   
+}
+
+.nav-bar a{
+    text-decoration: none;
 }
